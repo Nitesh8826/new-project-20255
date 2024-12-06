@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Nitesh Mishra</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 0.5rem;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+        }
+        .projects {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        .project {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            flex: 1 1 calc(33% - 2rem);
+            box-sizing: border-box;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nitesh Mishra</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Nitesh Mishra, a passionate web developer and designer. I specialize in creating dynamic and responsive websites that provide exceptional user experiences.</p>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Project 1</h3>
+                <img src="project1.jpg" alt="Project 1 Screenshot">
+                <p>Brief description of the project. Include key features and technologies used.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <img src="project2.jpg" alt="Project 2 Screenshot">
+                <p>Brief description of the project. Include key features and technologies used.</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <img src="project3.jpg" alt="Project 3 Screenshot">
+                <p>Brief description of the project. Include key features and technologies used.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out via email or follow me on social media!</p>
+        <p>Email: <a href="mailto:nitesh@example.com">nitesh@example.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/nitesh-mishra/" target="_blank">linkedin.com/in/nitesh-mishra</a></p>
+        <p>GitHub: <a href="https://github.com/niteshmishra" target="_blank">github.com/niteshmishra</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nitesh Mishra. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
